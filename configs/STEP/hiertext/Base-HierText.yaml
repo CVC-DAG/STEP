@@ -1,0 +1,7 @@
+_BASE_: "../Base-TESTR.yaml"
+DATASETS:
+  TRAIN: ("hiertext_train",)
+  TEST: ("hiertext_validation",)
+TEST:
+  USE_LEXICON: False
+  LEXICON_TYPE: 1
