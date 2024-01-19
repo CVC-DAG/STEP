@@ -51,10 +51,18 @@ unzip datasets/structured_test.zip -d datasets
 ````
 
 The license plate images are sourced from the [UFPR-ALPR](https://github.com/raysonlaroca/ufpr-alpr-dataset)
-dataset. The images of this dataset are licensed for non-commercial use, you need to request access 
+dataset. The images of this dataset are licensed for non-commercial use and you need to request access 
 to the authors (instructions are included in the linked repository).
-The images we used are the first frames of each one of the sequences, _script to copy the frames 
-automatically coming soon_.
+The images we used are the first frames of each one of the sequences. Supposing that you have
+been given access to the UFPR-ALPR dataset, you can download, unzip and copy these frames with:
+
+```bash
+wget https://redacted/UFPR-ALPR.zip # change it to the actual download link
+unzip UFPR-ALPR.zip
+cp UFPR-ALPR\ dataset/*/*/*\[01\].png datasets/structured_test/
+# cp UFPR-ALPR\ dataset/**/*\[01\].png datasets/structured_test/ # for zsh
+# rm -r UFPR-ALPR\ dataset/  # optionally
+```
 
 ### Test Dataset Format
 
