@@ -82,12 +82,12 @@ label of every type of code and its regular expression:
 
 ### Model Weights
 
-The TESTR pretrained weights (which are used to initialise the model) and STEP's final weights can 
-be downloaded with:
+The TESTR pretrained on HierText (which are used to initialise the model) and STEP's
+final weights can be downloaded with:
 ```bash
 mkdir ckp
-wget http://datasets.cvc.uab.cat/STEP/comingsoon.pth -P ckp
-wget http://datasets.cvc.uab.cat/STEP/comingsoon.pth -P ckp
+wget http://datasets.cvc.uab.es/STEP/TESTR_pretrain_ht_final.pth -P ckp
+wget http://datasets.cvc.uab.es/STEP/STEPv1_final.pth -P ckp
 ```
 
 They should be placed under the ``ckp`` directory, although you can place them anywhere else, but you 
