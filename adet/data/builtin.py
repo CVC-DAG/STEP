@@ -45,7 +45,7 @@ _PREDEFINED_SPLITS_TEXT = {
     "textocr_train": ("textocr/train_images", "textocr/annotations/train_poly.json"),
     "textocr_val": ("textocr/train_images", "textocr/annotations/val_poly.json"),
     "hiertext_train": ("hiertext/train", "hiertext/train.jsonl"),
-    "hiertext_val": ("hiertext/validation", "hiertext/validation.jsonl")
+    "hiertext_validation": ("hiertext/validation", "hiertext/validation.jsonl")
 }
 
 metadata_text = {
